@@ -1,6 +1,6 @@
 package com.sorting;
 
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
 
@@ -10,7 +10,8 @@ public class selection_sort {
         sort(arr);
         System.out.print(Arrays.toString(arr));
     }
-    static void sort(int @NotNull [] arr){
+//    static void sort(int @NotNull [] arr){
+    static void sort(int [] arr){
 
         int loc=-1;
         for(int i=0;i< arr.length-1;i++){
